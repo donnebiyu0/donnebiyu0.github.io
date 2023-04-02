@@ -69,4 +69,9 @@ wrappers.forEach((wrapper)=>{
   })
 })
 
-
+// spinner loader
+window.addEventListener('load', ()=>{
+  let loader =  document.querySelector('.spinner-wrapper')
+  loader.classList.add('loaded')
+})
+// end of spinner loader
