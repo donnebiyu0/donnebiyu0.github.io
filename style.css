@@ -797,6 +797,10 @@ label i{
         width: 30rem !important;
         height: 40rem !important;
     }
+    .service {
+        width: 27rem !important;
+        height: 40rem !important;
+    }
     .form-img-wrapper{
         display: none;
     }
