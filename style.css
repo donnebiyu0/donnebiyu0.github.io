@@ -182,7 +182,6 @@ label i{
     font-weight: 700;
     transition: transform .4s;
     cursor: pointer;
-    box-shadow: 0 1px 15px 4px #373737;
 }
 .order-now-btn:hover{
     transform: scale(1.03);
@@ -742,6 +741,9 @@ label i{
     }
     .section-2-heading{
         margin-bottom: 5rem;
+    }
+    .section-4-heading{
+        margin-bottom: 0rem;
     }
     .section-5{
         padding: 3rem 2rem;
