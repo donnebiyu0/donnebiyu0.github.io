@@ -154,7 +154,8 @@ label i{
     height: 100vh;
     z-index: -100;
     flex-direction: column;
-    background: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .3)), url('images/section1/bg1.jpg') no-repeat center center;    
+    background-color: linear-gradient(112.1deg, rgba(32, 38, 57, .7) 11.4%, rgba(63, 76, 119, .7) 70.2%);
+    background: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .3)), url('images/section1/bg1.jpg') no-repeat center center; 
     background-size: cover;
     box-shadow: 0 2px 35px #2d2d2d;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 91%, 0% 100%);
