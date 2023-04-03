@@ -171,6 +171,15 @@ label i{
     color: #c7a6cd;
     text-shadow: 2px 4px 7px #000;
 }
+.landing-text{
+    color: #6d6d6d;
+    width: 70vw;
+    text-align: center;
+    margin: 2rem auto;
+    filter: brightness(70%);
+    text-shadow: 3px 3px 20px #d9acc3,
+            -2px 1px 30px #987f8b;
+}
 .order-now-btn{
     width: 8rem;
     height: 3rem;
