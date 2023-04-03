@@ -65,8 +65,10 @@ body{
 
 .nav-link {
     color: rgb(199, 166, 205);
-    text-shadow: 1px 2px 1px #000;
+    /* text-shadow: 1px 2px 1px #000; */
     font-weight: 700;
+    filter: brightness(60%);
+    font-size: 1.5rem;
     font-style: var(--ff--other);
     letter-spacing: .08rem;
     transition: color .4s;
@@ -160,7 +162,7 @@ label i{
 }
 .section-1-heading{
     color: rgb(33, 44, 52);
-    font-weight: 800;
+    font-weight: 900;
     font-size: 3rem;
     letter-spacing: .2rem;
     font-family: var(--ff--title);
@@ -752,6 +754,7 @@ label i{
     .social-links{
         width: 100%;
     }
+    
 }
 @media (max-width: 500px) {
 
@@ -786,6 +789,10 @@ label i{
 
     .contact-form{
         width: 100%;
+    }
+    .flower {
+        width: 30rem !important;
+        height: 40rem !important;
     }
     .form-img-wrapper{
         display: none;
