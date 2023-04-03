@@ -75,3 +75,13 @@ window.addEventListener('load', ()=>{
   loader.classList.add('loaded')
 })
 // end of spinner loader
+
+// social links
+var socialLinks = document.querySelectorAll('.social-link');
+socialLinks.forEach((link) => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    window.open(link.href, '_blank');
+  });
+});
+// end of social links
