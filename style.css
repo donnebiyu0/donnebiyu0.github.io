@@ -75,7 +75,7 @@ body{
 }
 
 .nav-link:hover {
-    color: rgb(255, 215, 0);
+    color: #ffd700;
 }
 
 .nav-bar.change {
@@ -154,8 +154,7 @@ label i{
     height: 100vh;
     z-index: -100;
     flex-direction: column;
-    background-color: linear-gradient(112.1deg, rgba(32, 38, 57, .7) 11.4%, rgba(63, 76, 119, .7) 70.2%);
-    background: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .3)), url('images/section1/bg1.jpg') no-repeat center center; 
+    background: linear-gradient(rgba(0,0, 0, .3), rgba(0, 0, 0, .2)), url('images/section1/bg1.jpg') no-repeat center center; 
     background-size: cover;
     box-shadow: 0 2px 35px #2d2d2d;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 91%, 0% 100%);
@@ -172,17 +171,16 @@ label i{
     text-shadow: 2px 4px 7px #000;
 }
 .landing-text{
-    color: #6d6d6d;
+    color: #fff;
     width: 70vw;
+    opacity: .8;
     text-align: center;
     margin: 2rem auto;
-    filter: brightness(70%);
-    text-shadow: 3px 3px 20px #d9acc3,
-            -2px 1px 30px #987f8b;
+    /* text-shadow: 2px 2px 3px rgba(255,255,255,0.3) */
 }
 .order-now-btn{
-    width: 8rem;
-    height: 3rem;
+    width: 10rem;
+    height: 3.5rem;
     border-radius: 3rem;
     margin-top: 2rem;
     background-color: rgb(199, 166, 205);
@@ -192,6 +190,7 @@ label i{
     font-weight: 700;
     transition: transform .4s;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .order-now-btn:hover{
     transform: scale(1.03);
